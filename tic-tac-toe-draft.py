@@ -14,11 +14,9 @@ player_2 = str(input('Type the 2nd player name: ')).strip().title()
 fim = 0
 players = {1: player_1, 2: player_2}
 
-
 # function designed to input the user's position in the game's. 'rodar' is to avoid printing the tic tac +
 # + toe one above another print with the same result (it will happen if you remove the 'rodar' variable).
 def game1(current_player):
-    global y
     global fim
     other_player = 3 - marca
     rodar = 0
