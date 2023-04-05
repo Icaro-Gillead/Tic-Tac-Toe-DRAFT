@@ -20,6 +20,7 @@ players = {1: player_1, 2: player_2}
 def game1(current_player):
     global y
     global fim
+    other_player = 3 - marca
     rodar = 0
     x = str(input(f'{current_player}, type the position you want to fill (Enter to stop!): ')).strip().lower()
     if x == '':
@@ -33,7 +34,7 @@ def game1(current_player):
                 rodar = 1
                 game1(current_player)
             elif current_player == players[marca]:
-                print(f'Player {marca - y}, {players[marca - y]} already choose this slot. Choose another!')
+                print(f'Player {other_player}, {players[other_player]} already choose this slot. Choose another!')
                 rodar = 1
                 game1(current_player)
     if rodar == 0:
@@ -71,13 +72,11 @@ def verify_winner():
 
 while True:
     marca = 1
-    y = -1
     game1(player_1)
     verify_winner()
     if fim == 1:
         break
     marca = 2
-    y = 1
     game1(player_2)
     verify_winner()
     if fim == 1:
