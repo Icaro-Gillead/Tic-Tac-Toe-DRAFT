@@ -1,6 +1,6 @@
-A very basic model of Tic Tac Toe, with 2 players with the names inputted by the users/players, and loops until a right place in the tic tac toe scheme is filled with user's correspondent number ('1' for player one, '2' for player 2).
+A very basic model of Tic Tac Toe, 2 players, their names are inputted by the users/players. A while loop is runned until a right place in the tic tac toe grid is filled with user's correspondent number ('1' for player one, '2' for player 2).
 
-It is written to avoid user replacing the adversary player number that had already inputted.
+It is written to avoid user replacing the adversary player number that had already inputted in the grid.
 
 Next update: It is a DRAFT for a little bigger project which will include Try/Except commands to avoid wrong insertions.
 
