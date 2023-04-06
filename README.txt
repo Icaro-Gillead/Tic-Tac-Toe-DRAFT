@@ -4,6 +4,5 @@ It is written to avoid user replacing the adversary player number that had alrea
 
 Next update: It is a DRAFT for a little bigger project which will include Try/Except commands to avoid wrong insertions.
 
-Last update: include pygame and use figures/images to include the symbols for the game, it will a bigger step-by-step program.
+Last update: include pygame and use figures/images to include the symbols for the game, it will be a bigger step-by-step program.
 
-By; Icaro Gillead Ramos
